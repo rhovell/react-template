@@ -3,6 +3,8 @@ function RedLogo() {
 }
 
 const logostyle = {
-  width: '100px'
+  width: '20%',
+  margin: 10,
+  maxWidth: "200px"
 }
 export default RedLogo;

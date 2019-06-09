@@ -1,5 +1,84 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_fblogo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/fblogo */ "./components/fblogo.js");
+/* harmony import */ var _components_twitterlogo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/twitterlogo */ "./components/twitterlogo.js");
+var _jsxFileName = "C:\\Users\\rhove\\React\\React-template-nextjs\\components\\Footer.js";
+
+
+
+
+var footerStyle = {
+  position: 'relative',
+  bottom: 0,
+  display: 'block',
+  width: '100%',
+  background: '#F2F2F2'
+};
+var linkStyle = {
+  marginRight: 15
+};
+var socialStyle = {
+  width: '20%',
+  textAlign: 'center',
+  margin: 'auto',
+  display: 'inline-flex'
+};
+
+var Footer = function Footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: footerStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "social-bar",
+    style: socialStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_fblogo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_twitterlogo__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
 /***/ "./components/Header.js":
 /*!******************************!*\
   !*** ./components/Header.js ***!
@@ -14,7 +93,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_red_logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/red-logo */ "./components/red-logo.js");
+/* harmony import */ var _components_fblogo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/fblogo */ "./components/fblogo.js");
+/* harmony import */ var _components_twitterlogo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/twitterlogo */ "./components/twitterlogo.js");
 var _jsxFileName = "C:\\Users\\rhove\\React\\React-template-nextjs\\components\\Header.js";
+
+
 
 
 
@@ -23,61 +106,114 @@ var linkStyle = {
 };
 var headerStyle = {
   background: '#F2F2F2',
-  width: '100%',
+  width: '100vw',
+  padding: 0,
+  margin: 0,
+  maxWidth: "100vw",
+  display: 'inline-flex'
+};
+var logoContainerStyle = {
+  width: '80%'
+};
+var menuStyle = {
+  background: "rgb(7, 140, 0)",
+  margin: 0,
   padding: 20,
-  margin: 0
+  maxWidth: "100vw"
+};
+var socialStyle = {
+  width: '20%',
+  textAlign: 'center',
+  display: 'inline-flex',
+  margin: 'auto'
 };
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: headerStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "logo-container",
+    style: logoContainerStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_red_logo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 41
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "social-bar",
+    style: socialStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_fblogo__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_twitterlogo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "menu-bar",
+    style: menuStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 50
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 53
     },
     __self: this
-  }, "Contact")));
+  }, "Contact"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -96,15 +232,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
 var _jsxFileName = "C:\\Users\\rhove\\React\\React-template-nextjs\\components\\MyLayout.js";
+
 
 
 var layoutStyle = {
   margin: -8,
   padding: 0,
-  width: '100%',
+  width: '100vw',
   maxWidth: '100vw',
-  height: '100%',
+  height: '100vh',
   maxHeight: '100vh'
 };
 
@@ -113,19 +251,63 @@ var Layout = function Layout(props) {
     style: layoutStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
-  }), props.children);
+  }), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./components/fblogo.js":
+/*!******************************!*\
+  !*** ./components/fblogo.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\rhove\\React\\React-template-nextjs\\components\\fblogo.js";
+
+
+function FbLogo() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    style: logostyle,
+    src: "/static/Fblogo.png",
+    alt: "my image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  });
+}
+
+var logostyle = {
+  width: '24px',
+  height: '24px',
+  margin: 5,
+  maxWidth: "46px",
+  maxHeight: "46px"
+};
+/* harmony default export */ __webpack_exports__["default"] = (FbLogo);
 
 /***/ }),
 
@@ -157,9 +339,49 @@ function RedLogo() {
 }
 
 var logostyle = {
-  width: '100px'
+  width: '20%',
+  margin: 10,
+  maxWidth: "200px"
 };
 /* harmony default export */ __webpack_exports__["default"] = (RedLogo);
+
+/***/ }),
+
+/***/ "./components/twitterlogo.js":
+/*!***********************************!*\
+  !*** ./components/twitterlogo.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\rhove\\React\\React-template-nextjs\\components\\twitterlogo.js";
+
+
+function TwitterLogo() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    style: logostyle,
+    src: "/static/twitterLogo.png",
+    alt: "my image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  });
+}
+
+var logostyle = {
+  width: '24px',
+  height: '24px',
+  margin: 5,
+  maxWidth: "46px",
+  maxHeight: "46px"
+};
+/* harmony default export */ __webpack_exports__["default"] = (TwitterLogo);
 
 /***/ }),
 
@@ -10624,40 +10846,84 @@ var _jsxFileName = "C:\\Users\\rhove\\React\\React-template-nextjs\\pages\\index
 
 
 
+var homepageStyle = {
+  padding: 10,
+  margin: 0
+};
 function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "My page title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-    name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "Hello Next.js"));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "My page title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, max-width=device-width",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "mobile-web-app-capable",
+    content: "yes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "apple-mobile-web-app-capable",
+    content: "yes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    "http-equiv": "X-UA-Compatible",
+    content: "IE=edge",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "description",
+    content: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "homepage",
+    style: homepageStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Homepage")));
 }
 
 /***/ }),
