@@ -10,8 +10,8 @@ To copy this repo to your localdrive, type the following commands into your pref
 
 Then to run the build environment, type the following commands:
 
-  `cd react-template
-  next start`
+  `cd react-template`<br/>
+  `next start`
 
 Once ready to deploy your app, run the following command:
 
