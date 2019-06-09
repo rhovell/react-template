@@ -6,8 +6,13 @@ Simple React Template with components, pages ans static elements.
 
 To copy this repo to your localdrive, type the following commands into your preferred command line:
 
-  git clone https://github.com/rhovell/react-template.git
+  `git clone https://github.com/rhovell/react-template.git`
 
 Then to run the build environment, type the following commands:
-  cd react-template
-  next start
+
+  `cd react-template
+  next start`
+
+Once ready to deploy your app, run the following command:
+
+  `next build`
