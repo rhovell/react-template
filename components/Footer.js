@@ -8,6 +8,7 @@ const footerStyle = {
   display: 'block',
   width: '100%',
   background: '#F2F2F2'
+  
 };
 
 const linkStyle = {
